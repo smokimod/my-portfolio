@@ -1,0 +1,44 @@
+.contacts {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: hsla(212, 13%, 41%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(212, 13%, 41%, 1) 0%,
+    hsla(3, 100%, 73%, 1) 100%
+  );
+}
+.contacts_container {
+  width: 45%;
+  margin: 100px;
+}
+.contacts_head {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.ui.header {
+  color: yellow;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.field input {
+  background: rgba(0, 0, 0, 0.6) !important;
+  color: rgb(187, 133, 61);
+  border: solid 4px green;
+}
+.field textarea {
+  background: rgba(0, 0, 0, 0.6) !important;
+  color: tan;
+}
+.ui.bottom {
+  color: yellow;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.6);
+}

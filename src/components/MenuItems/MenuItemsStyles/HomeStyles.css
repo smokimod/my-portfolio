@@ -1,0 +1,23 @@
+.home_bg {
+  height: 100vh;
+  background: url("../../images//v877-mynt-31_1.jpeg"), no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home_logo {
+  display: flex;
+}
+.home_dev_profile {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: black;
+  padding: 1.5rem;
+}
